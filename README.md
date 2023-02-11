@@ -22,13 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop Preview](images/preview-desktop.png)
-[Mobile Preview](images/preview-mobile.png)
+images/preview-desktop.png images/preview-mobile.png
 
 ### Links
 
-- Solution URL: {Github](https://github.com/Cedriic0de/weather-app/
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution https://github.com/Cedriic0de/weather-app/
 
 ## My process
 
