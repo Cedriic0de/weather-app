@@ -37,7 +37,7 @@ async function getWeather(lat, lon){
 
         let temp = selectorElement("#temp");
         let weatherIcon = selectorElement("#current__icon");
-        let icon = weatherDetails.current.weather[0].icon;
+        let icon = weatherDetails.current.weather[0]?.icon;
         let dayTime = selectorElement("#current__time");
         let sunrise = selectorElement("#sunrise");
         let sunset = selectorElement("#sunset");
