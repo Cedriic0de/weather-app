@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop Preview: (images/preview-desktop.png)
-- Mobile Preview : (images/preview-mobile.png)
+- [Desktop Preview](images/preview-desktop.png)
+- [Mobile Preview](images/preview-mobile.png)
 
 ### Links
 
