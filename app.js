@@ -29,7 +29,7 @@ const selectorElement = (selector) => {
           getWeather(lat, lon);
       });
   } else {
-    console.log("Geolocation is not available");
+    console.log("Geolocation is not available")
   }
 
  //Get user weather data
@@ -41,13 +41,10 @@ const selectorElement = (selector) => {
             const response = await fetch(url);
             const weatherDetails = await response.json();
 
-            console.log(weatherDetails);
-        
             let icon = weatherDetails.current.weather[0]?.icon;
             let rise = weatherDetails.current.sunrise;
             let set = weatherDetails.current.sunset;
             let day_time = weatherDetails.current.dt;
-
 
             city.innerHTML = weatherDetails.timezone.split("/")[1];
             temp.innerHTML = convertTemp(weatherDetails.current.temp) + " ℃";

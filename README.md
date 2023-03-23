@@ -1,4 +1,5 @@
 # Weather App v2 solution
+Note: Will not run due to location api HTTP request
 
 ## Table of contents
 
@@ -13,8 +14,6 @@
 
 ## Overview
 
-### The challenge
-
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
@@ -23,13 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Preview](images/preview-desktop.jpg)
-[Mobile Preview](images/preview-mobile.jpg)
+- [Desktop Preview](images/desktop-preview.png)
+- [Mobile Preview](images/mobile-preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution https://github.com/Cedriic0de/weather-app/
 
 ## My process
 
