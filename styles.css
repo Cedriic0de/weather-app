@@ -5,10 +5,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    background: url("images/sky.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+     url("images/sky.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #f2f2f2;
 }
 #heading{
     text-align: center;
@@ -27,7 +29,10 @@ body{
     text-align: left;
     margin-top: 32px;
 }
-#current__time, #temp, #current__icon, .city{
+#current__time,
+ #temp, 
+ #current__icon, 
+ .city{
     margin-bottom: 28px;
 }
 #temp{
@@ -37,7 +42,8 @@ body{
     width: 20%;
     height: auto;
 }
-/* weather__conditions Style */
+
+/* Weather Condition Style */
 .weather__conditions{
     display: flex;
     justify-content: space-around;
@@ -45,7 +51,6 @@ body{
     margin-top: 32px;
     padding: 0;
     vertical-align: baseline;
-
 }
 .content{
     margin: 0;
@@ -67,19 +72,38 @@ body{
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.2);
     border-right: 1px solid rgba(0, 0, 0, 0.7);
-    }
-    .daily:first-child{
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px; 
-    }
-    .daily:last-child{
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px; 
-        border: none;
-    }
+}
+.daily:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; 
+}
+.daily:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    border: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 /* Media Queries */
-
 @media (min-width: 320px) and (max-width: 480px){
     .wrapper, .weather__details{
         margin: auto;
